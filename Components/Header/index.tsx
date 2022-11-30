@@ -1,5 +1,5 @@
-import LogoRed from '../../assets/images/logo-icon-red.svg';
-import LogoTextRed from '../../assets/images/logo-text-red.svg';
+import LogoRed from '../../assets/images/logo-icon-orange.svg';
+import LogoTextRed from '../../assets/images/logo-text-orange.svg';
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -7,11 +7,11 @@ import { useState } from 'react';
 import { useAuth } from '../../Context/AuthContext';
 
 
-export const Header = () => {  
-    const [ open, setIsOpen ] = useState(false);
+export const Header = () => {
+    const [open, setIsOpen] = useState(false);
 
     const { user, logout } = useAuth();
-    
+
     return (
         <header>
             <Link href="/">

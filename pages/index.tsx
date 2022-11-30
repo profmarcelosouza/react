@@ -11,14 +11,14 @@ import TrayItemsContext, { useTrayItems } from '../Context/TrayItemsContext'
 const ComponentPage: NextPage = () => {
   return (
     <>
-    <MetaTitle title="HBurger" />
+      <MetaTitle title="HBurger" />
       <TrayContext>
         <TrayItemsContext>
-        <section>
-          <Header />
-          <Carte />
-        </section>
-        <Aside />
+          <section>
+            <Header />
+            <Carte />
+          </section>
+          <Aside />
         </TrayItemsContext>
       </TrayContext>
     </>

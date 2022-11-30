@@ -1,15 +1,15 @@
-$dark: #070D0D;
-$light: #D7D7D7;
-$white: #FFFFFF;
-$gray: #E3E3E3;
+$dark: #070d0d;
+$light: #d7d7d7;
+$white: #ffffff;
+$gray: #e3e3e3;
 
-$theme: red;
+$theme: #ff760c;
 $bgLogin: #250303;
-$bgTabs: #3A1C1C;
-$bgHorizontalLine: #1F2525;
-$primary: #DD0E0E;
+$bgTabs: #3a1c1c;
+$bgHorizontalLine: #1f2525;
+$primary: #ff760c;
 $primaryText: $white;
-$secondary: rgba(#FF5252, .7);
+$secondary: rgba(#ff760c, 0.7);
 
 /* $theme: green;
 $bgLogin: #0D1807;
@@ -27,6 +27,6 @@ $primary: #1F3BE5;
 $primaryText: $white;
 $secondary: rgba(#1B9AF6, .7); */
 
-$white10: rgba($white, .1);
-$white90: rgba($white, .9);
-$white25: rgba($white, .25);
+$white10: rgba($white, 0.1);
+$white90: rgba($white, 0.9);
+$white25: rgba($white, 0.25);
